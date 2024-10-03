@@ -1,9 +1,13 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { Questrial} from "next/font/google";
+import { Montserrat } from "next/font/google";
+import { cn } from "@/lib/utils";
 import "./globals.css";
 
-const inter = Questrial({ weight: '400', subsets: ["latin"] });
+const inter = Questrial({ weight: ["400"], subsets: ["latin"] });
+const mont = Montserrat({weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"], subsets: ["latin"] })
+
 
 export const metadata: Metadata = {
   title: "GrowByte",
@@ -18,7 +22,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`inter.className antialiased`}
+       className={cn(
+        "min-h-screen antialiased",
+        mont.className
+      )}
       >
         {children}
       </body>

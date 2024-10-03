@@ -6,11 +6,11 @@ import Link from 'next/link'
 
 const Navbar = () => {
   return (
-    <div className="flex bg-white justify-between px-12 py-6">
-        <div className="flex justify-between items-center w-[30%]">
+    <div className="flex justify-between px-12 py-6 bg-slate-50">
+        <div className="flex justify-between items-center w-[30%] text-lg">
             <Image
-                height={180}
-                width={180}
+                height={190}
+                width={190}
                 src="/assets/logo.png"
                 alt="growbyte logo"
             />
@@ -19,7 +19,7 @@ const Navbar = () => {
                 <Link href="/">About Us</Link>
         </div>
 
-        <Button className="bg-indigo-900 w-[150px] hover:bg-white hover:text-orange-400  h-[50px]">Book Now</Button>
+        <Button className="bg-indigo-800 w-[170px] h-[50px] text-lg">Book a meeting</Button>
     </div>
   )
 }
