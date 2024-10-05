@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <body
        className={cn(
-        "min-h-screen antialiased",
+        "min-h-screen antialiased bg-slate-50",
         mont.className
       )}
       >

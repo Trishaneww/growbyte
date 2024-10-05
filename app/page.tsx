@@ -1,3 +1,4 @@
+import About from "@/components/About";
 import Booking from "@/components/Booking";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
@@ -12,6 +13,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Information />
+      <About />
       <Services />
       <Booking />
       <Footer />

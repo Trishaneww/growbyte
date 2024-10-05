@@ -5,15 +5,15 @@ import { Button } from './ui/button';
 
 const Booking = () => {
   return (
-    <div className="flex justify-start items-center px-16 mt-48 mb-48">
-        <div className="flex flex-col gap-2 w-[65%]">
-            <h1 className="text-6xl font-semibold">Grow your business</h1>
-            <p className="w-[90%] text-lg">Boost your business with expert digital marketing! Book now for SEO, social media, PPC, and more to grow your online presence</p>
+    <div className="flex flex-col lg:flex-row justify-start items-center px-4 lg:px-16 mt-48 mb-48">
+        <div className="flex flex-col items-center lg:items-start gap-2 w-full lg:w-[65%]">
+            <h1 className="text-3xl lg:text-6xl font-semibold">Grow your business</h1>
+            <p className="w-[90%] text-lg text-center lg:text-left">Boost your business with expert digital marketing! Book now for SEO, social media, PPC, and more to grow your online presence</p>
             <div className="flex justify-center items-center w-[182px] h-[52px] bg-gradient-to-l from-indigo-900 to-indigo-300 rounded-md mt-6">
-                <Button className="bg-white w-[180px] h-[50px] text-indigo-900 text-lg rounded-md">View our work</Button>
+                <Button className="bg-white w-[180px] h-[50px] text-indigo-900 text-base rounded-md">Contact Us</Button>
             </div>
         </div>
-        <div className="w-full">
+        <div className="w-full mt-12">
             <InlineWidget url="https://calendly.com/growbyte/30min" styles={{height: '500px'}} />
         </div>
 
