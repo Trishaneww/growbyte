@@ -12,6 +12,9 @@ const mont = Montserrat({weight: ["100", "200", "300", "400", "500", "600", "700
 export const metadata: Metadata = {
   title: "GrowByte",
   description: "Marketing company",
+  icons: {
+    icon: "/assets/icons/favicon.ico",
+  },
 };
 
 export default function RootLayout({

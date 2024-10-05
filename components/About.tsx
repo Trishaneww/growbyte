@@ -4,14 +4,15 @@ import { Button } from './ui/button'
 
 const About = () => {
   return (
-    <div className="flex flex-col items-center gap-12 mt-60">
+    <div className="flex flex-col items-center gap-12 mt-12 lg:mt-60" >
 
         <div className="flex justify-center items-center w-[172px] h-[42px] bg-gradient-to-l from-indigo-900 to-indigo-300 rounded-full -mb-8">
             <Button className="bg-white w-[170px] h-[40px] text-indigo-900 text-base rounded-full">Our Team</Button>
         </div>
         <h1 className="font-semibold text-3xl lg:text-6xl w-full text-center">Our experts are like no other</h1>
+        <p className="w-[96%] md-w-[80%] lg:w-[66%] text-center -mt-6">We specialize in digital marketing solutions tailored for car dealerships. Our expert team drives leads and sales through targeted strategies like SEO, PPC, and social media.</p>
 
-        <section className="flex justify-center flex-wrap gap-2 items-center">
+        <section className="flex justify-center flex-wrap gap-2 items-center" id="services">
         <Image
             height={280}
             width={280}

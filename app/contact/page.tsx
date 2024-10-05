@@ -1,6 +1,7 @@
 import ContactHero from '@/components/ContactHero'
 import Navbar from '@/components/Navbar'
 import { Button } from '@/components/ui/button'
+import { Toaster } from '@/components/ui/toaster'
 import Image from 'next/image'
 import React from 'react'
 import { GiCheckMark } from 'react-icons/gi'
@@ -24,6 +25,7 @@ const Contact = () => {
     <div className="flex flex-col">
         <Navbar />
         <ContactHero />
+        <Toaster />
         {/* <div className="flex">
          
         <div className="flex flex-col w-full">

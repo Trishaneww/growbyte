@@ -5,6 +5,7 @@ import Hero from "@/components/Hero";
 import Information from "@/components/Information";
 import Navbar from "@/components/Navbar";
 import Services from "@/components/Services";
+import Technologies from "@/components/Technologies";
 
 
 export default function Home() {
@@ -13,8 +14,11 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Information />
+      <div id="about"></div>
       <About />
       <Services />
+      <Technologies />
+      <div id="booking"></div>
       <Booking />
       <Footer />
 

@@ -19,11 +19,11 @@ const Footer = () => {
         <section className="flex gap-12 items-start flex-wrap">
             <div className="flex flex-col gap-2">
                 <p className="text-slate-900 font-semibold text-lg">Booking</p>
-                <p className="text-slate-700 text-lg">Google Meeting</p>
+                <p className="text-slate-700 text-lg">Google Meets</p>
             </div>
 
             <div className="flex flex-col gap-2">
-                <p className="text-slate-900 font-semibold text-lg">Our Partner</p>
+                <p className="text-slate-900 font-semibold text-lg">Our Partners</p>
                 <p className="text-slate-700 text-lg">Honda Oakville</p>
                 <p className="text-slate-700 text-lg">Toyota Milton</p>
                 <p className="text-slate-700 text-lg">Mitsubishi Oakville</p>
@@ -31,15 +31,20 @@ const Footer = () => {
 
             <div className="flex flex-col gap-2">
                 <p className="text-slate-900 font-semibold text-lg">Services</p>
-                <p className="text-slate-700 text-lg">Google Ads</p>
-                <p className="text-slate-700 text-lg">Instagram Ads</p>
-                <p className="text-slate-700 text-lg">Facebook Ads</p>
+                <Link href="/#services">
+                    <p className="text-slate-700 text-lg">Google Ads + SEO</p>
+                </Link>
+                <Link href="/#services">
+                    <p className="text-slate-700 text-lg">Instagram Ads</p>
+                </Link>
+                <Link href="/#services">
+                    <p className="text-slate-700 text-lg">Facebook Ads</p>
+                </Link>
             </div>
 
             <div className="flex flex-col gap-2">
                 <p className="text-slate-900 font-semibold text-lg">Contact</p>
-                <a href="mailto:contact.figmentstudios@gmail.com" className="text-lg" target="_blank">contact.growbyte@gmail.com</a>
-                <a href="https://www.instagram.com/figmentstudioss" className="text-lg" target="_blank">@growbyte</a>
+                <a href="mailto:growbyte@gmail.com" className="text-lg" target="_blank">growbyte@gmail.com</a>
                 <p className="text-lg">(647)-767-8909</p>
             </div>
 

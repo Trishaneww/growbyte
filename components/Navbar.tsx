@@ -6,20 +6,20 @@ import Link from 'next/link'
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center px-12 py-6 bg-slate-50">
-        <div className="flex justify-between items-center text-lg">
+    <div className="flex justify-between items-center lg:px-12 py-6 bg-slate-50 w-full">
+        <div className="flex justify-between items-center text-base">
           <Link href="/">
             <Image
-                height={190}
-                width={190}
+                height={230}
+                width={230}
                 src="/assets/logo.png"
                 alt="growbyte logo"
-            />xb
+            />
           </Link>
           <div className="hidden md:flex justify-between items-center w-[60%] lg:w-[80%]">
-            <Link href="/">Recent Work</Link>
-            <Link href="/">Our Team</Link>
-            <Link href="/">About Us</Link>
+            <Link href="/#services">Our Services</Link>
+            <Link href="/#about">About Us</Link>
+            <Link href="/#booking">Book a meeting</Link>
           </div>
         </div>
 
