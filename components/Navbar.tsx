@@ -38,10 +38,9 @@ const Navbar = () => {
               <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
             </label>
 
-            <a href="/#faq">Recent Work</a> 
-            <a href="/portfolio">Our Team</a>
-            <a href="/services">Services</a>
-            <a href="/pricing">About Us</a>
+            <Link href="/#services">Our Services</Link>
+            <Link href="/#about">About Us</Link>
+            <Link href="/#booking">Book a meeting</Link>
             <Link href="/contact">
             <Button className="bg-gradient-to-l from-indigo-900 to-indigo-300 w-[170px] h-[50px] text-base">Contact Us</Button>
             </Link>

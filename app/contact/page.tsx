@@ -1,4 +1,5 @@
 import ContactHero from '@/components/ContactHero'
+import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
 import { Button } from '@/components/ui/button'
 import { Toaster } from '@/components/ui/toaster'
@@ -25,6 +26,7 @@ const Contact = () => {
     <div className="flex flex-col">
         <Navbar />
         <ContactHero />
+        <Footer />
         <Toaster />
         {/* <div className="flex">
          
