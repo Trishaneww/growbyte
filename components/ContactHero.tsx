@@ -9,7 +9,6 @@ import { useToast } from "@/components/hooks/use-toast"
 
 const ContactHero = () => {
     const { toast } = useToast()
-
     const sendEmail = (e:any) => {
       e.preventDefault();
       console.log(e.target)
@@ -74,7 +73,7 @@ const ContactHero = () => {
                 <p className="flex justify-start text-slate-900">First Name</p>
                 <input 
                 type="text" 
-                name="email" 
+                name="fname" 
                 placeholder="First name" 
                 className="w-full border-[1px] h-[45px] border-slate-200 p-2 rounded-md outline-none"/>
             </div>
@@ -84,7 +83,7 @@ const ContactHero = () => {
                 <input 
                 type="text" 
                 name="company" 
-                placeholder="Last name" 
+                placeholder="lname" 
                 className="w-full border-[1px] h-[45px] border-slate-200 p-2 rounded-md outline-none"/>
             </div>
           </div>
@@ -103,7 +102,7 @@ const ContactHero = () => {
                 <p className="flex justify-start text-slate-900">Phone</p>
                 <input 
                 type="text" 
-                name="company" 
+                name="phone" 
                 placeholder="Phone number" 
                 className="w-full border-[1px] h-[45px] border-slate-200 p-2 rounded-md outline-none"/>
             </div>
