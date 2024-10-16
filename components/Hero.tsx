@@ -13,7 +13,7 @@ const Hero = () => {
             <div className="flex flex-col text-center lg:text-left gap-2">
                 <h1 className="text-slate-950 text-3xl lg:text-5xl xl:text-[4.6rem] leading-[1] font-semibold">Connecting Leads and Driving <span className="bg-gradient-to-r from-indigo-600 via-indigo-800 to bg-slate-950 bg-clip-text text-transparent ml-2">Success</span></h1>
                 {/* <h1 className="text-slate-950 text-3xl lg:text-5xl xl:text-[4.6rem] leading-[1] font-semibold">and Driving <span className="bg-gradient-to-r from-indigo-600 via-indigo-800 to bg-slate-950 bg-clip-text text-transparent ml-2">Success</span></h1> */}
-                <p className="text-black w-full xl:w-4/5 mt-4">Grow your business with a custom website that sets you apart in today's digital landscape. A professionally designed site tailored to your brand not only enhances your online presence but also drives traffic, engages customers, and boosts conversions.</p>
+                <p className="text-black w-full xl:w-[88%] mt-4">Expand your business by attracting more customers with a marketing strategy tailored to your needs and designed specifically for your organization. Our customized digital campaigns position your brand as a leader in your industry, driving more inquiries and conversions. We’ll boost your visibility and help you connect with potential customers seeking solutions that meet their needs.</p>
             </div>    
 
             <div className="flex gap-2 justify-center">
