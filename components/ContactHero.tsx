@@ -34,7 +34,7 @@ const ContactHero = () => {
             />
 
             <p className="text-2xl md:text-5xl  font-bold mt-6">Grow your business's online presence</p>
-            <p className="mt-4">Ready to bring your web concepts to life? Partner with our expert team and watch your vision become a stunning reality.</p>
+            {/* <p className="mt-4">Ready to bring your web concepts to life? Partner with our expert team and watch your vision become a stunning reality.</p> */}
             <ul className="flex flex-col gap-4 mt-4">
               <li className="flex gap-4 items-center">
                 <div className="w-[22px] h-[22px] flex justify-center items-center text-green-100 bg-indigo-500 rounded-full">
