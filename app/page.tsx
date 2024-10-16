@@ -13,11 +13,11 @@ export default function Home() {
     <div className="flex flex-col bg-slate-50 scroll-smooth">
       <Navbar />
       <Hero />
+      <Technologies />
       <Information />
       <div id="about"></div>
       <About />
       <Services />
-      <Technologies />
       <div id="booking"></div>
       <Booking />
       <Footer />
