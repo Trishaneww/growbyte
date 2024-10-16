@@ -9,7 +9,7 @@ const Technologies = () => {
             <Button className="bg-white w-[170px] h-[40px] text-indigo-900 text-base rounded-full">Our System</Button>
         </div>
         <h1 className="font-semibold text-3xl lg:text-6xl w-full text-center">The Tech We Use</h1>
-        <p className="w-[96%] md-w-[80%] lg:w-[66%] text-center mt-6">What we use to ensure your campaigns run smoothly</p>
+        <p className="w-[96%] md-w-[80%] lg:w-[66%] text-center lg:text-lg mt-6">What we use to ensure your campaigns run smoothly</p>
 
         <section className="flex flex-col md:flex-row flex-wrap justify-center items-center mt-6 lg:mt-16 w-full gap-12 lg:gap-24">
             <Image 
