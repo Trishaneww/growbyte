@@ -7,8 +7,8 @@ const Information = () => {
     <div className="flex flex-col items-center justify-center lg:mt-52">
         <h1 className="text-3xl mt-36 lg:mt-0 lg:text-6xl font-semibold text-center w-full lg:w-[75%] p-2">Boost your dealership's sales with expert digital marketing</h1>
         <div className="flex flex-col justify-center items-center w-full lg:w-[55%] text-center lg:text-lg font-light mt-10 gap-6 p-2">
-            <p>Grow your business with a custom website that sets you apart in today's digital landscape. A professionally designed site tailored to your brand not only enhances your online presence but also drives traffic, engages customers, and boosts conversions.</p>
-            <p>A professionally designed site tailored to your brand not only enhances your online presence but also drives traffic, engages customers, and boosts conversions.</p>
+            <p>Our speciality is in helping businesses grow their customer base through targeted, results-driven digital marketing strategies. Whether you're looking to fill more appointment slots at your dental practice or increase showroom visits at your dealership, we have the expertise to make it happen.</p>
+            <p>Our tailored marketing solutions focus on reaching your ideal audience, generating high-quality leads, and boosting conversions. We don’t just run ads — we create compelling campaigns designed to deliver measurable results. With our team of diverse experts, with specialities in different fields and with different marketing mediums, we understand the unique challenges you face and are committed to driving the growth you deserve</p>
         </div>
 
         {/* <section className="flex flex-row flex-wrap w-full justify-center gap-1 mt-12">
