@@ -25,7 +25,7 @@ const About = () => {
             <Button className="bg-white w-[170px] h-[40px] text-indigo-900 text-base rounded-full">Our Team</Button>
         </div>
         <h1 className="font-semibold text-3xl lg:text-6xl w-full text-center">Our experts are like no other</h1>
-        <p className="w-[96%] md-w-[80%] lg:w-[66%] text-center -mt-6">We specialize in digital marketing solutions tailored for car dealerships. Our expert team drives leads and sales through targeted strategies like SEO, PPC, and social media.</p>
+        <p className="w-[96%] md-w-[80%] lg:w-[66%] lg:text-lg text-center -mt-6">With years of experience in digital marketing across various industries, our team is committed to understanding the unique needs of businesses and providing tailored marketing solutions that deliver measurable results. With our combined expertise, we’re here to help your business attract more customers and thrive in the digital landscape.</p>
 
         <section className="flex justify-center flex-wrap gap-2 items-center" id="services">
         <Image
