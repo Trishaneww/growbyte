@@ -7,8 +7,8 @@ import { LuPencilLine } from "react-icons/lu";
 const Services = () => {
   return (
     <div className="flex flex-col px-2 lg:px-14 mt-10">
-        {/* <h1 className="font-semibold text-3xl lg:text-6xl w-full text-center">Unlock your brand's potential</h1> */}
-        <section className="flex flex-col md:flex-row flex-wrap justify-center items-center mt-12 lg:mt-24 w-full gap-6 lg:gap-8">
+        <h1 className="font-semibold text-3xl lg:text-6xl w-full text-center mt-16 lg:mt-24 bg-gradient-to-r from-indigo-600 via-indigo-800 to bg-slate-950 bg-clip-text text-transparent">Our Services</h1>
+        <section className="flex flex-col md:flex-row flex-wrap justify-center items-center mt-6 w-full gap-6 lg:gap-8">
             <div className="flex flex-col items-start justify-start gap-2 hover:-translate-y-2 transition delay-150 duration-300 ease-in-out w-[320px] md:w-[390px] h-[250px] border-[1px] border-gray-300 p-6 rounded-lg">
                 <div className="flex items-end gap-4 h-[50px]">
                     <FaInstagram size={35}/>

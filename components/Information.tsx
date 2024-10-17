@@ -5,7 +5,7 @@ import { Button } from './ui/button'
 const Information = () => {
   return (
     <div className="flex flex-col items-center justify-center lg:mt-52">
-        <h1 className="text-3xl mt-36 lg:mt-0 lg:text-6xl font-semibold text-center w-full lg:w-[75%] p-2">Boost your bussiness's sales with expert digital marketing</h1>
+        <h1 className="text-3xl mt-36 lg:mt-0 lg:text-6xl font-semibold text-center w-full lg:w-[75%] p-2 bg-gradient-to-r from-indigo-600 via-indigo-800 to bg-slate-950 bg-clip-text text-transparent">Boost your bussiness's sales with expert digital marketing</h1>
         <div className="flex flex-col justify-center items-center w-full lg:w-[55%] text-center lg:text-lg font-light mt-10 gap-6 p-2">
             <p>Our speciality is in helping businesses grow their customer base through targeted, results-driven digital marketing strategies. Whether you're looking to fill more appointment slots at your dental practice or increase showroom visits at your dealership, we have the expertise to make it happen.</p>
             <p>Our tailored marketing solutions focus on reaching your ideal audience, generating high-quality leads, and boosting conversions. We don’t just run ads — we create compelling campaigns designed to deliver measurable results. With our team of diverse experts, with specialities in different fields and with different marketing mediums, we understand the unique challenges you face and are committed to driving the growth you deserve</p>
