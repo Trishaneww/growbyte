@@ -11,7 +11,7 @@ const Technologies = () => {
         <h1 className="font-semibold text-3xl lg:text-6xl w-full text-center">The Tech We Use</h1>
         <p className="w-[96%] md-w-[80%] lg:w-[66%] text-center lg:text-lg mt-6">What we use to ensure your campaigns run smoothly</p>
 
-        <section className="flex flex-col md:flex-row flex-wrap justify-center items-center mt-6 lg:mt-16 w-full gap-12 lg:gap-24">
+        {/* <section className="flex flex-col md:flex-row flex-wrap justify-center items-center mt-6 lg:mt-16 w-full gap-12 lg:gap-24">
             <Image 
                 height={150}
                 width={150}
@@ -42,14 +42,252 @@ const Technologies = () => {
                 src="/assets/swydo.png"
                 alt="google tag logo"
             />
-              {/* <Image 
+              <Image 
                 height={30}
                 width={300}
                 src="/assets/meta.png"
                 alt="google tag logo"
                 className="xl:-ml-20"
-            /> */}
-        </section>
+            />
+        </section> */}
+
+
+<div className="relative w-full opacity-30 md:-top-20">
+    <div className="logos flex gap-12">
+      <div className="logos-slide flex gap-16">
+          <div className="flex items-center justify-center w-[280px] h-[290px]">
+            <Image 
+              width={1000}
+              height={1000}
+              src="/assets/meta.png"
+              alt="company photo"
+            />
+          </div>
+
+          <div className="flex items-center justify-center w-[250px] h-[290px]">
+            <Image 
+              width={150}
+              height={150}
+              src="/assets/callrail.png"
+              alt="company photo"
+            />
+          </div>
+
+          <div className="flex items-center justify-center w-[250px] h-[290px]">
+            <Image 
+              width={200}
+              height={200}
+              src="/assets/googleanalytics.png"
+              alt="company photo"
+            />
+          </div>
+
+          <div className="flex items-center justify-center w-[200px] h-[290px]">
+            <Image 
+              width={130}
+              height={130}
+              src="/assets/hotjar.png"
+              alt="company photo"
+            />
+          </div>
+
+          <div className="flex items-center justify-center w-[250px] h-[290px]">
+            <Image 
+              width={500}
+              height={500}
+              src="/assets/googleads.png"
+              alt="company photo"
+            />
+          </div>
+
+          <div className="flex items-center justify-center w-[280px] h-[290px]">
+            <Image 
+              width={130}
+              height={130}
+              src="/assets/hubspot.png"
+              alt="company photo"
+            />
+          </div>
+
+          <div className="flex items-center justify-center max-w-[300px] max-h-[290px]">
+            <Image 
+              width={100}
+              height={100}
+              src="/assets/googletag.png"
+              alt="company photo"
+            />
+          </div>
+
+          <div className="flex items-center justify-center w-[280px] h-[290px]">
+            <Image 
+              width={100}
+              height={100}
+              src="/assets/loom.png"
+              alt="company photo"
+            />
+          </div>
+      </div>
+
+      <div className="logos-slide flex gap-16">
+          <div className="flex items-center justify-center w-[280px] h-[290px]">
+            <Image 
+              width={1000}
+              height={1000}
+              src="/assets/meta.png"
+              alt="company photo"
+            />
+          </div>
+
+          <div className="flex items-center justify-center w-[250px] h-[290px]">
+            <Image 
+              width={150}
+              height={150}
+              src="/assets/callrail.png"
+              alt="company photo"
+            />
+          </div>
+
+          <div className="flex items-center justify-center w-[250px] h-[290px]">
+            <Image 
+              width={200}
+              height={200}
+              src="/assets/googleanalytics.png"
+              alt="company photo"
+            />
+          </div>
+
+          <div className="flex items-center justify-center w-[200px] h-[290px]">
+            <Image 
+              width={130}
+              height={130}
+              src="/assets/hotjar.png"
+              alt="company photo"
+            />
+          </div>
+
+          <div className="flex items-center justify-center w-[250px] h-[290px]">
+            <Image 
+              width={500}
+              height={500}
+              src="/assets/googleads.png"
+              alt="company photo"
+            />
+          </div>
+
+          <div className="flex items-center justify-center w-[280px] h-[290px]">
+            <Image 
+              width={130}
+              height={130}
+              src="/assets/hubspot.png"
+              alt="company photo"
+            />
+          </div>
+
+          <div className="flex items-center justify-center max-w-[300px] max-h-[290px]">
+            <Image 
+              width={100}
+              height={100}
+              src="/assets/googletag.png"
+              alt="company photo"
+            />
+          </div>
+
+          <div className="flex items-center justify-center w-[280px] h-[290px]">
+            <Image 
+              width={100}
+              height={100}
+              src="/assets/loom.png"
+              alt="company photo"
+            />
+          </div>
+      </div>
+
+      
+
+
+      {/* <div className="logos-slide flex gap-16">
+          <div className="flex items-center justify-center max-w-[300px] max-h-[290px]">
+            <Image 
+              width={1000}
+              height={1000}
+              src="/assets/meta.png"
+              alt="company photo"
+              className="object grayscale"
+            />
+          </div>
+
+          <div className="flex items-center justify-center w-[300px] h-[290px]">
+            <Image 
+              width={1000}
+              height={1000}
+              src="/assets/meta.png"
+              alt="company photo"
+              className="object grayscale"
+            />
+          </div>
+
+          <div className="flex items-center justify-center w-[300px] h-[290px]">
+            <Image 
+              width={1000}
+              height={1000}
+              src="/assets/meta.png"
+              alt="company photo"
+              className="object grayscale"
+            />
+          </div>
+
+          <div className="flex items-center justify-center w-[300px] h-[290px]">
+            <Image 
+              width={1000}
+              height={1000}
+              src="/assets/meta.png"
+              alt="company photo"
+              className="object grayscale"
+            />
+          </div>
+
+          <div className="flex items-center justify-center w-[300px] h-[290px]">
+            <Image 
+              width={1000}
+              height={1000}
+              src="/assets/meta.png"
+              alt="company photo"
+              className="object grayscale"
+            />
+          </div>
+
+          <div className="flex items-center justify-center w-[300px] h-[290px]">
+            <Image 
+              width={1000}
+              height={1000}
+              src="/assets/meta.png"
+              alt="company photo"
+              className="object grayscale"
+            />
+          </div>
+
+          <div className="flex items-center justify-center w-[300px] h-[290px]">
+            <Image 
+              width={1000}
+              height={1000}
+              src="/assets/meta.png"
+              alt="company photo"
+              className="object grayscale"
+            />
+          </div>
+
+          <div className="flex items-center justify-center w-[300px] h-[290px]">
+            <Image 
+              width={1000}
+              height={1000}
+              src="/assets/meta.png"
+              alt="company photo"
+              className="object grayscale"
+            />
+          </div>
+      </div> */}
+    </div>
+</div>
     </div>
   )
 }
