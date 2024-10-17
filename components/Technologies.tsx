@@ -52,10 +52,10 @@ const Technologies = () => {
         </section> */}
 
 
-<div className="relative w-full opacity-70 md:-top-20">
+<div className="relative w-full opacity-70 md:top-2">
     <div className="logos flex gap-2">
       <div className="logos-slide flex gap-6">
-          <div className="flex items-center justify-center w-[280px] h-[290px]">
+          <div className="flex items-center justify-center w-[280px] h-[30px]">
             <Image 
               width={1000}
               height={1000}
@@ -64,7 +64,7 @@ const Technologies = () => {
             />
           </div>
 
-          <div className="flex items-center justify-center w-[250px] h-[290px]">
+          <div className="flex items-center justify-center w-[250px] h-[30px]">
             <Image 
               width={150}
               height={150}
@@ -73,7 +73,7 @@ const Technologies = () => {
             />
           </div>
 
-          <div className="flex items-center justify-center w-[250px] h-[290px]">
+          <div className="flex items-center justify-center w-[250px] h-[30px]">
             <Image 
               width={200}
               height={200}
@@ -82,7 +82,7 @@ const Technologies = () => {
             />
           </div>
 
-          <div className="flex items-center justify-center w-[200px] h-[290px]">
+          <div className="flex items-center justify-center w-[200px] h-[30px]">
             <Image 
               width={130}
               height={130}
@@ -91,7 +91,7 @@ const Technologies = () => {
             />
           </div>
 
-          <div className="flex items-center justify-center w-[250px] h-[290px]">
+          <div className="flex items-center justify-center w-[250px] h-[30px]">
             <Image 
               width={500}
               height={500}
@@ -100,7 +100,7 @@ const Technologies = () => {
             />
           </div>
 
-          <div className="flex items-center justify-center w-[280px] h-[290px]">
+          <div className="flex items-center justify-center w-[280px] h-[30px]">
             <Image 
               width={130}
               height={130}
@@ -109,7 +109,7 @@ const Technologies = () => {
             />
           </div>
 
-          <div className="flex items-center justify-center max-w-[300px] max-h-[290px]">
+          <div className="flex items-center justify-center max-w-[300px] max-h-[30px]">
             <Image 
               width={100}
               height={100}
@@ -118,7 +118,7 @@ const Technologies = () => {
             />
           </div>
 
-          <div className="flex items-center justify-center w-[280px] h-[290px]">
+          <div className="flex items-center justify-center w-[280px] h-[30px]">
             <Image 
               width={100}
               height={100}
@@ -129,7 +129,7 @@ const Technologies = () => {
       </div>
 
       <div className="logos-slide flex gap-6">
-          <div className="flex items-center justify-center w-[280px] h-[290px]">
+          <div className="flex items-center justify-center w-[280px] h-[30px]">
             <Image 
               width={1000}
               height={1000}
@@ -138,7 +138,7 @@ const Technologies = () => {
             />
           </div>
 
-          <div className="flex items-center justify-center w-[250px] h-[290px]">
+          <div className="flex items-center justify-center w-[250px] h-[30px]">
             <Image 
               width={150}
               height={150}
@@ -147,7 +147,7 @@ const Technologies = () => {
             />
           </div>
 
-          <div className="flex items-center justify-center w-[250px] h-[290px]">
+          <div className="flex items-center justify-center w-[250px] h-[30px]">
             <Image 
               width={200}
               height={200}
@@ -156,7 +156,7 @@ const Technologies = () => {
             />
           </div>
 
-          <div className="flex items-center justify-center w-[200px] h-[290px]">
+          <div className="flex items-center justify-center w-[200px] h-[30px]">
             <Image 
               width={130}
               height={130}
@@ -165,7 +165,7 @@ const Technologies = () => {
             />
           </div>
 
-          <div className="flex items-center justify-center w-[250px] h-[290px]">
+          <div className="flex items-center justify-center w-[250px] h-[30px]">
             <Image 
               width={500}
               height={500}
@@ -174,7 +174,7 @@ const Technologies = () => {
             />
           </div>
 
-          <div className="flex items-center justify-center w-[280px] h-[290px]">
+          <div className="flex items-center justify-center w-[280px] h-[30px]">
             <Image 
               width={130}
               height={130}
@@ -183,7 +183,7 @@ const Technologies = () => {
             />
           </div>
 
-          <div className="flex items-center justify-center max-w-[300px] max-h-[290px]">
+          <div className="flex items-center justify-center max-w-[300px] max-h-[30px]">
             <Image 
               width={100}
               height={100}
@@ -192,7 +192,7 @@ const Technologies = () => {
             />
           </div>
 
-          <div className="flex items-center justify-center w-[280px] h-[290px]">
+          <div className="flex items-center justify-center w-[280px] h-[30px]">
             <Image 
               width={100}
               height={100}
@@ -206,7 +206,7 @@ const Technologies = () => {
 
 
       {/* <div className="logos-slide flex gap-16">
-          <div className="flex items-center justify-center max-w-[300px] max-h-[290px]">
+          <div className="flex items-center justify-center max-w-[300px] max-h-[30px]">
             <Image 
               width={1000}
               height={1000}
@@ -216,7 +216,7 @@ const Technologies = () => {
             />
           </div>
 
-          <div className="flex items-center justify-center w-[300px] h-[290px]">
+          <div className="flex items-center justify-center w-[300px] h-[30px]">
             <Image 
               width={1000}
               height={1000}
@@ -226,7 +226,7 @@ const Technologies = () => {
             />
           </div>
 
-          <div className="flex items-center justify-center w-[300px] h-[290px]">
+          <div className="flex items-center justify-center w-[300px] h-[30px]">
             <Image 
               width={1000}
               height={1000}
@@ -236,7 +236,7 @@ const Technologies = () => {
             />
           </div>
 
-          <div className="flex items-center justify-center w-[300px] h-[290px]">
+          <div className="flex items-center justify-center w-[300px] h-[30px]">
             <Image 
               width={1000}
               height={1000}
@@ -246,7 +246,7 @@ const Technologies = () => {
             />
           </div>
 
-          <div className="flex items-center justify-center w-[300px] h-[290px]">
+          <div className="flex items-center justify-center w-[300px] h-[30px]">
             <Image 
               width={1000}
               height={1000}
@@ -256,7 +256,7 @@ const Technologies = () => {
             />
           </div>
 
-          <div className="flex items-center justify-center w-[300px] h-[290px]">
+          <div className="flex items-center justify-center w-[300px] h-[30px]">
             <Image 
               width={1000}
               height={1000}
@@ -266,7 +266,7 @@ const Technologies = () => {
             />
           </div>
 
-          <div className="flex items-center justify-center w-[300px] h-[290px]">
+          <div className="flex items-center justify-center w-[300px] h-[30px]">
             <Image 
               width={1000}
               height={1000}
@@ -276,7 +276,7 @@ const Technologies = () => {
             />
           </div>
 
-          <div className="flex items-center justify-center w-[300px] h-[290px]">
+          <div className="flex items-center justify-center w-[300px] h-[30px]">
             <Image 
               width={1000}
               height={1000}
