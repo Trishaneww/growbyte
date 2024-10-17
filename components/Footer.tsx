@@ -37,7 +37,7 @@ const Footer = () => {
 
             <div className="flex flex-col gap-2">
                 <p className="text-slate-900 font-semibold text-lg">Contact</p>
-                <a href="mailto:growbyte@gmail.com" className="text-lg" target="_blank">contact@growbyte.ca</a>
+                <a href="mailto:growbyte@gmail.ca" className="text-lg" target="_blank">contact@growbyte.ca</a>
                 <p className="text-lg">(647) 470 6161</p>
             </div>
 

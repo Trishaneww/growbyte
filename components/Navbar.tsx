@@ -18,7 +18,7 @@ const Navbar = () => {
           </Link>
           <div className="hidden md:flex justify-between items-center w-[60%] lg:w-[80%]">
             <Link href="/#services">Our Services</Link>
-            <Link href="/#about">About Us</Link>
+            <Link href="/#about">Our Team</Link>
             <Link href="/#booking">Book a meeting</Link>
           </div>
         </div>
@@ -39,7 +39,7 @@ const Navbar = () => {
             </label>
 
             <Link href="/#services">Our Services</Link>
-            <Link href="/#about">About Us</Link>
+            <Link href="/#about">Our Team</Link>
             <Link href="/#booking">Book a meeting</Link>
             <Link href="/contact">
             <Button className="bg-gradient-to-l from-indigo-900 to-indigo-300 w-[170px] h-[50px] text-base">Contact Us</Button>
